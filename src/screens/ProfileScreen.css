@@ -6,11 +6,11 @@
 .profileScreen__body {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 8%;
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .profileScreen__info {
@@ -44,7 +44,7 @@
 }
 
 .profileScreen__body > h1 {
-    font-size: 60px;
+    font-size: 2.75em;
     font-weight: 400;
     border-bottom: 1px solid #282c2d;
     margin-bottom: 20px;

@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import { selectUser } from '../features/userSlice';
 import { auth } from '../firebase';
 import "./ProfileScreen.css"
+import avatar from '../assets/images/generic-avatar.png';
 
 function ProfileScreen() {
     const user = useSelector(selectUser);
@@ -14,7 +15,7 @@ function ProfileScreen() {
             <div className="profileScreen__body">
                  <h1>Edit Profile</h1>
                  <div className="profileScreen__info">
-                    <img src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png" alt="Profile Avatar" />
+                    <img src={avatar} alt="Profile Avatar" />
                     <div className="profileScreen__details">
                         <h2>{user.email}</h2>
                         <div className="profileScreen__plans">

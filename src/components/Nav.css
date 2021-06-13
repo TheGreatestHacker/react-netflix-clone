@@ -26,14 +26,14 @@
     left: 0;
     width: 80px;
     object-fit: contain;
-    padding-left: 20px;
+    padding-left: 30px;
     cursor: pointer;
 }
 
 .nav__avatar {
     cursor: pointer;
     position: fixed;
-    right: 20px;
+    right: 30px;
     width: 30px;
     height: 30px;
 }
