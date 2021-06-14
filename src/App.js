@@ -45,11 +45,11 @@ function App() {
           <LoginScreen />
         ) : (
           <Switch>
-            <Route exact path="/profile">
-              <ProfileScreen />
-            </Route>
             <Route exact path="/">
               <HomeScreen />
+            </Route>
+            <Route exact path="/profile">
+              <ProfileScreen />
             </Route>
           </Switch>
         )}
